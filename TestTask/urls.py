@@ -21,5 +21,5 @@ from main import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.task, name='task')
+    path('TestTask', views.task, name='task')
 ]
